@@ -30,27 +30,27 @@
 ### Quick Install (recommended)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/quencoder/quen/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/MeViksrt/quen-coder/main/install.sh | bash
 ```
 
 ### Manual Install
 
-Download the latest binary for your platform from [Releases](https://github.com/quencoder/quen/releases):
+Download the latest binary for your platform from [Releases](https://github.com/MeViksry/quen-coder/releases):
 
 ```bash
 # Linux (amd64)
-curl -fsSL https://github.com/quencoder/quen/releases/latest/download/quen_linux_amd64.tar.gz | tar xz
+curl -fsSL https://github.com/MeViksry/quen-coder/releases/latest/download/quen_linux_amd64.tar.gz | tar xz
 sudo mv quen /usr/local/bin/
 
 # macOS (Apple Silicon)
-curl -fsSL https://github.com/quencoder/quen/releases/latest/download/quen_darwin_arm64.tar.gz | tar xz
+curl -fsSL https://github.com/MeViksry/quen-coder/releases/latest/download/quen_darwin_arm64.tar.gz | tar xz
 sudo mv quen /usr/local/bin/
 ```
 
 ### Build from Source
 
 ```bash
-git clone https://github.com/quencoder/quen.git
+git clone https://github.com/MeViksry/quen-coder.git
 cd quen
 make install
 ```
